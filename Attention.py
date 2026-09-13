@@ -107,4 +107,4 @@ class TransformerE(nn.Module):
 encoder = TransformerE(d_model=512, num_heads=8, d_ff=2048, num_layers=6)
 x = torch.randn(2, 10, 512)
 out = encoder(x)
-print(out.shape)  # should be (2, 10, 512)
+print(out.shape)  
